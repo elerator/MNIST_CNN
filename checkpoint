@@ -1,0 +1,2 @@
+model_checkpoint_path: "/mnt/c/Users/eler/Documents/Cognitive_Science/handwriting_detection/generate_dataset/MNIST_model"
+all_model_checkpoint_paths: "/mnt/c/Users/eler/Documents/Cognitive_Science/handwriting_detection/generate_dataset/MNIST_model"
