@@ -101,7 +101,7 @@ def init_model():
         
         
 def train(epochs = 1, batch_size=10):
-    mnist = MNIST(os.getcwd())
+    mnist = MNIST('/net/home/student/m/mgerstenberg/MNIST_CNN/')
     
     step = 1
     for epoch in range(epochs):

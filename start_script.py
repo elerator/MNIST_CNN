@@ -39,4 +39,5 @@ def submit_script(scriptpath, args, mem = "4G", cuda_cores = 0,jobname = "job"):
                 + '\n'+'eof')
     
 if __name__ == "__main__":
-    submit_script(sys.argv[1:])
+    submit_script(os.getcwd()+"/"+sys.argv[1],sys.argv[2:])
+
