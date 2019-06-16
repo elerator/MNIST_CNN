@@ -3,12 +3,13 @@ import numpy as np
 import os
 import struct
 
-from keras import backend as K
+
+from tf.keras.models import Sequential
+from tf.keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
 
 
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
-import keras
+
+model = tf.keras.models.Sequential
 
 
 class MNIST():
@@ -77,7 +78,7 @@ class MNIST():
         
         
 def init_model():
-    K.clear_session()
+    #K.clear_session()
     tf.reset_default_graph()
 
     model = Sequential()
